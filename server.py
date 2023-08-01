@@ -109,10 +109,10 @@ def identification():
 
 
 if __name__ == "__main__":
-    #app.run(host="localhost")
-    from gevent.pywsgi import WSGIServer
-    http_server = WSGIServer(("localhost", 5000), app)
-    http_server.serve_forever() 
+    app.run()
+    #from gevent.pywsgi import WSGIServer
+    #http_server = WSGIServer(("localhost", 5000), app)
+    #http_server.serve_forever() 
 
     db.close()
     print("closing db")
