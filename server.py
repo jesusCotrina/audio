@@ -65,6 +65,11 @@ def minutes():
     return "True"
 
 
+@app.route('/', methods= ['GET']) 
+def get():
+    return "hello"
+
+
 @app.route('/identification', methods= ['POST']) 
 def identification():
     db.commit()
