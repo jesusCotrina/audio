@@ -92,7 +92,8 @@ def identification():
         state_bill=data[3]
         hours_state=data[5]
     print("mac real",mac_real)
-    print("bill",state_bill)
+    print("mac_post",mac_post)
+    print("id_key post",id_key)
 
     if mac_post==mac_real:
         if state_bill:
