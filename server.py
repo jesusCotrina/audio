@@ -70,7 +70,7 @@ def get():
     return "hello"
 
 @app.route('/loaderio-b28c60f282d4440f3306300986500ef3/', methods= ['GET']) 
-def get():
+def estres_test():
     
     return "loaderio-b28c60f282d4440f3306300986500ef3"
 
