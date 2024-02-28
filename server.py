@@ -111,6 +111,7 @@ def identification():
     else:
         state={"state":"Esta computadora no esta habilitada para correr el programa"}
 
+    state={"state":"True"} #Cambiar en prod, la base de datos no esta disponible
     return state
 
 
